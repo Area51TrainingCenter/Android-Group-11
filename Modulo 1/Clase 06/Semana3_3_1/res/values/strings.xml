@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Semana3_3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="texto_nombre">Nombre</string>
+    <string name="texto_apellido">Apellido</string>
+    <string name="texto_grabar">Grabar</string>
+    <string name="texto_siguiente">Siguiente</string>
+    <string name="campo_requerido">Ingrese todos los valores</string>
+    <string name="mensaje_exitoso">Se registro correctamente el registro</string>
+
+</resources>
