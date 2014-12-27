@@ -1,0 +1,71 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                android:src="@drawable/paisaje_uno" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/icon_play" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#444444" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="7dp"
+                android:text="Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aca está el texto"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <com.example.views.ExpandableHeightGridView
+        android:id="@+id/grilla"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="100dp" >
+        </com.example.views.ExpandableHeightGridView>
+
+<!--         <GridView -->
+<!--             android:id="@+id/grilla" -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="match_parent" -->
+<!--             android:numColumns="auto_fit" -->
+<!--             android:stretchMode="columnWidth" -->
+<!--             android:verticalSpacing="100dp" > -->
+<!--         </GridView> -->
+    </LinearLayout>
+
+</ScrollView>
