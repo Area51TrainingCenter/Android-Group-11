@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ThreadClass</string>
+    <string name="activity_main_btn_execute">Execute on main thread</string>
+    <string name="activity_main_btn_execute_secondary_thread">Execute on secondary thread</string>
+    <string name="activity_main_btn_execute_async_task">Execute on async task</string>
+    <string name="activity_main_btn_execute_intent_service">Execute on intent Service</string>
+
+</resources>

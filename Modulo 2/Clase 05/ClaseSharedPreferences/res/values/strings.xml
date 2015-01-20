@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ClaseSharedPreferences</string>
+    <string name="welcome_message">¡Hola, ingresa tu nombre!</string>
+    <string name="hint_name">Nombre completo</string>
+    <string name="welcome_back_message">¡Bienvenido de vuelta %1$s!</string>
+    <string name="register_name">Registrar nombre</string>
+
+</resources>

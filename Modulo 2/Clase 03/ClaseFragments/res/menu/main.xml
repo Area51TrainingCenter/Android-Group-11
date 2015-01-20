@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.clasefragments.MainActivity" >
+
+    <item
+        android:id="@+id/menu_hello"
+        android:icon="@android:drawable/ic_delete"
+        android:showAsAction="always|withText"
+        android:title="@string/hello_world"/>
+    <item
+        android:id="@+id/menu_bye"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:showAsAction="always|withText"
+        android:title="@string/bye_world"/>
+
+</menu>

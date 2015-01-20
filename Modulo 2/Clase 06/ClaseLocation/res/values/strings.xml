@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Clase Location</string>
+    <string name="latitude">Latitud</string>
+    <string name="longitude">Longitud</string>
+    <string name="get_location">Obtener ubicación</string>
+    <string name="location_enabled">Obtiendo ubicación</string>
+    <string name="location_disabled">Se dejó de obtener la ubicación</string>
+
+</resources>

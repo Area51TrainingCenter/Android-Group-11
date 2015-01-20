@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="pe.area51.clasealarmmanager.MainActivity" >
+
+    <EditText
+        android:id="@+id/activity_main_edittext_menssage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/message" />
+
+    <EditText
+        android:id="@+id/activity_main_edittext_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/time"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/activity_main_button_launch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/launch" />
+
+</LinearLayout>

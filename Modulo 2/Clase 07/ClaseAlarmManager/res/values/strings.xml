@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Clase AlarmManager</string>
+    <string name="message">Mensaje a mostrar</string>
+    <string name="time">Mostrar en x segundos</string>
+    <string name="launch">Lanzar alarma</string>
+
+</resources>

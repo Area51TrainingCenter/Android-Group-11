@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/activity_main_btn_execute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_main_btn_execute" />
+
+    <Button
+        android:id="@+id/activity_main_btn_execute_secondary_thread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_main_btn_execute_secondary_thread" />
+
+    <Button
+        android:id="@+id/activity_main_btn_execute_async_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_main_btn_execute_async_task" />
+
+    <Button
+        android:id="@+id/activity_main_btn_execute_intent_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_main_btn_execute_intent_service" />
+
+</LinearLayout>
