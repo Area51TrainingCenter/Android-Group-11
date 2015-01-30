@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pe.area51.clasegooglemaps.MainActivity" >
+
+    <item
+        android:id="@+id/main_map_normal"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/map_normal"/>
+    <item
+        android:id="@+id/main_map_satellite"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/map_satellite"/>
+    <item
+        android:id="@+id/main_map_hybrid"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/map_hybrid"/>
+    <item
+        android:id="@+id/main_map_terrain"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/map_terrain"/>
+
+</menu>
