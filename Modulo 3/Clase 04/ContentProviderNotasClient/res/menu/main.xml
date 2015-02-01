@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.contentproviderclienttest.MainActivity" >
+
+    <item
+        android:id="@+id/main_query"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/query"/>
+    <item
+        android:id="@+id/main_insert"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/insert"/>
+    <item
+        android:id="@+id/main_delete_all"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/delete_all"/>
+
+</menu>

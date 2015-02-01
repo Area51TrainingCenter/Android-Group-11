@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Content Provider Client Test</string>
+    <string name="insert">Insertar</string>
+    <string name="query">Obtener datos</string>
+    <string name="delete_all">Borrar todo</string>
+
+</resources>
