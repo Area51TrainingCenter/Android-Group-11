@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Clase Rest</string>
+    <string name="latitude">Latitud</string>
+    <string name="longitude">Longitud</string>
+    <string name="send_request">Enviar Solicitud</string>
+    <string name="progress_title">Obteniendo respuesta</string>
+    <string name="progress_message">Obteniendo respuesta del servidor</string>
+    <string name="server_error_dialog_title">Error</string>
+    <string name="server_error_dialog_message">Error de conexión</string>
+    <string name="response_error_dialog_title">Error</string>
+    <string name="response_error_dialog_message">Respuesta del servidor inválida</string>
+    <string name="address">Direcciòn: %1$s</string>
+    <string name="city">Ciudad: %1$s</string>
+    <string name="country">Paìs: %1$s</string>
+
+</resources>
