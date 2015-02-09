@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ejemplo onActivityResult</string>
+    <string name="result">Request code: %1$s, Result code: %2$s, Intent text: %3$s</string>
+    <string name="result_text">Texto de respuesta</string>
+    <string name="send_result">Enviar respuesta</string>
+    <string name="example_activity_1">Actividad de ejemplo I</string>
+    <string name="example_activity_2">Actividad de ejemplo II</string>
+
+</resources>
